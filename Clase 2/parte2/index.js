@@ -148,3 +148,7 @@ switch (moneda) {
 // }
 
 // alert("Gracias!!!");
+
+let numero = 1;
+
+numero += 5; // numero = numero + 1
