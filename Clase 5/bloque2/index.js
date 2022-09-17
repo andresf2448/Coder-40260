@@ -92,7 +92,7 @@ formulario.addEventListener("submit", (e) => {
   }
 }) */
 
-let productos = [];
+/* let productos = [];
 let contenedor = document.getElementById("contenedor");
 let formulario = document.getElementById("formulario");
 formulario.addEventListener("submit", (e) => {
@@ -108,4 +108,4 @@ formulario.addEventListener("submit", (e) => {
   })
 
   inputs[0].value = "";
-})
+}) */
