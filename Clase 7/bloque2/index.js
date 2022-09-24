@@ -50,7 +50,7 @@ let boton = document.getElementById("boton");
   });
 }); */
 
-boton.addEventListener("click", () => {
+/* boton.addEventListener("click", () => {
   Swal.fire({
     title: "Está seguro de eliminar el producto?",
     icon: "warning",
@@ -67,4 +67,20 @@ boton.addEventListener("click", () => {
       });
     }
   });
+}); */
+
+boton.addEventListener("click", () => {
+  Swal.fire({
+    title: 'Submit your Github username',
+    input: 'text',
+    showCancelButton: true,
+    confirmButtonText: 'Look up',
+    showLoaderOnConfirm: true,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        title: `${result.value}`,
+      })
+    }
+  })
 });
