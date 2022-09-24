@@ -78,6 +78,7 @@ boton.addEventListener("click", () => {
     showLoaderOnConfirm: true,
   }).then((result) => {
     if (result.isConfirmed) {
+      //aca el codigo a ejecutar
       Swal.fire({
         title: `${result.value}`,
       })
