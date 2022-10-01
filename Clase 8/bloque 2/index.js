@@ -55,6 +55,8 @@ const conseguirProductos = async () => {
   try {
     const reponse = await fetch("https://jsonplaceholder.typicode.com/posts");
     const data = await reponse.json();
+    const reponse1 = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const data2 = await reponse.json();
     let contenedor = document.getElementById("contenedor");
 
     data.forEach((item) => {
