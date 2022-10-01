@@ -127,3 +127,4 @@ traerProductos()
     document.body.append(div);
   });
 })
+.catch(error => console.log(error));
