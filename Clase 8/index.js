@@ -110,6 +110,7 @@ const traerProductos = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(productos);
+      // reject("ocurrio un error");
     }, 3000);
   });
 };
